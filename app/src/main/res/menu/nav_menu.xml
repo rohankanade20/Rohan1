@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/opt_settings"
+        android:icon="@drawable/baseline_star_rate_24"
+        android:title="Rate Us"/>
+    <item android:id="@+id/opt_new"
+        android:icon="@drawable/baseline_privacy_tip_24"
+        android:title="Privacy policy"/>
+    <item android:id="@+id/opt_logout"
+        android:icon="@drawable/baseline_info_24"
+        android:title="About Us"
+        app:showAsAction="ifRoom"/>
+</menu>
